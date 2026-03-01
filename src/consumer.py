@@ -10,10 +10,10 @@ import aio_pika
 from aio_pika import Message
 from aio_pika.abc import AbstractIncomingMessage
 
-from ai_server.config import settings
-from ai_server.graphs.chatbot_graph import chatbot_graph
-from ai_server.graphs.instant_graph import instant_graph
-from ai_server.graphs.trip_graph import trip_graph
+from config import settings
+from graphs.chatbot_graph import chatbot_graph
+from graphs.instant_graph import instant_graph
+from graphs.trip_graph import trip_graph
 
 logger = logging.getLogger(__name__)
 

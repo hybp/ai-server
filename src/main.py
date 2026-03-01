@@ -8,8 +8,8 @@ from contextlib import asynccontextmanager
 import aio_pika
 from fastapi import FastAPI
 
-from ai_server.config import settings
-from ai_server.consumer import start_consumer
+from config import settings
+from consumer import start_consumer
 
 logging.basicConfig(
     level=logging.INFO,

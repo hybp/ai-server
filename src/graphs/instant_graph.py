@@ -14,10 +14,10 @@ from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
 from langgraph.graph import END, StateGraph
 
-from ai_server.config import settings
-from ai_server.models.instant import InstantRecommendations
-from ai_server.prompts.instant import build_instant_prompt
-from ai_server.services.places import gather_instant_places, hydrate_with_cache
+from config import settings
+from models.instant import InstantRecommendations
+from prompts.instant import build_instant_prompt
+from services.places import gather_instant_places, hydrate_with_cache
 
 logger = logging.getLogger(__name__)
 

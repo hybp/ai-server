@@ -9,7 +9,7 @@ from typing import Any
 
 import httpx
 
-from ai_server.config import settings
+from config import settings
 
 logger = logging.getLogger(__name__)
 

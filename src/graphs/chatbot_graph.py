@@ -9,8 +9,8 @@ from typing import TypedDict
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from langgraph.graph import END, StateGraph
 
-from ai_server.config import settings
-from ai_server.prompts.trip import CHATBOT_SYSTEM_PROMPT
+from config import settings
+from prompts.trip import CHATBOT_SYSTEM_PROMPT
 
 logger = logging.getLogger(__name__)
 

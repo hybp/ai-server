@@ -13,10 +13,10 @@ from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
 from langgraph.graph import END, StateGraph
 
-from ai_server.config import settings
-from ai_server.models.trip import TripPlan
-from ai_server.prompts.trip import build_trip_prompt
-from ai_server.services.places import gather_trip_places
+from config import settings
+from models.trip import TripPlan
+from prompts.trip import build_trip_prompt
+from services.places import gather_trip_places
 
 logger = logging.getLogger(__name__)
 
